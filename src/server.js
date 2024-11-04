@@ -6,7 +6,7 @@ server.use(express.json())
 server.use('/movies', movieRoute)
 
 server.get('/', (req, res) => {
-    res.send("Hello !")
+    res.send("Hello ! Welcome to manage move api")
 })
 
 
